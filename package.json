@@ -1,0 +1,28 @@
+{
+  "name": "gulp-basics",
+  "version": "1.0.0",
+  "description": "Gulp basics with ES6 and SASS",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gauravps18/gulp-basics-es6-scss.git"
+  },
+  "keywords": [
+    "Gulp",
+    "ES6",
+    "SCSS"
+  ],
+  "author": "gauraps18",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gauravps18/gulp-basics-es6-scss/issues"
+  },
+  "homepage": "https://github.com/gauravps18/gulp-basics-es6-scss#readme"
+}
