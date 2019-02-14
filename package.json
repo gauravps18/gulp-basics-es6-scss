@@ -5,12 +5,18 @@
   "main": "gulpfile.js",
   "dependencies": {},
   "devDependencies": {
-    "@babel/core": "^7.2.2",
-    "@babel/preset-env": "^7.3.1",
-    "babelify": "^10.0.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babelify": "^8.0.0",
     "browserify": "^16.2.3",
+    "del": "^3.0.0",
     "gulp": "^4.0.0",
-    "gulp-uglify": "^3.0.1"
+    "gulp-rename": "^1.4.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1",
+    "gulp-webserver": "^0.9.1",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,7 +28,10 @@
   "keywords": [
     "Gulp",
     "ES6",
-    "SCSS"
+    "SCSS",
+    "browserify",
+    "babelify",
+    "bundle"
   ],
   "author": "gauraps18",
   "license": "ISC",
